@@ -1,17 +1,89 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SmartHome Solutions</title>
-  <!-- Manrope Google Font  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-  <!-- Tailwind and DaisyUI CDN  -->
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-  
-</body>
+<html lang="en" data-theme="corporate">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartHome Solutions</title>
+    <!-- Manrope Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome  -->
+    <script
+      src="https://kit.fontawesome.com/492730970a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Tailwind and DaisyUI CDN  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class=" text-[#212121]">
+    <header class=" bg-gradient-to-t from-[#f4f4f4] to-white ">
+      <!-- Navbar Section  -->
+      <div class="w-11/12 mx-auto navbar justify-between pt-8">
+        <div class="">
+          <div class="flex gap-2 items-center">
+            <span
+              class="bg-[#abef5f] w-8 h-8 rounded-full text-xl flex items-center justify-center -rotate-45"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+            <span class="text-3xl font-extrabold">Rinterio</span>
+          </div>
+        </div>
+        <div class="hidden lg:flex">
+          <ul class="menu menu-horizontal px-0.5 text-[#737373]">
+            <li class=""><a class="text-[#494949] font-extrabold p-2">Home</a></li>
+            <li><a class="p-2">Services</a></li>
+            <li><a class="p-2">Portfolio</a></li>
+            <li><a class="p-2">Blogs</a></li>
+            <li><a class="p-2">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="gap-4">
+          <div class="sm:flex hidden">
+            <i
+              class="fa-solid fa-magnifying-glass h-12 w-12 rounded-full border flex justify-center items-center mr-4 text-[#737373] text-xl"
+            ></i>
+            <i
+              class="fa-solid fa-cart-shopping h-12 w-12 rounded-full border flex justify-center items-center text-[#737373] text-xl"
+            ></i>
+          </div>
+          <div class="hidden sm:block">
+            <div class="btn btn-ghost bg-[#abef5f] rounded-3xl">
+              <span class="text-xl font-extrabold">Book Consult</span>
+              <span
+                class="bg-black text-white w-8 h-8 rounded-full text-xl flex items-center justify-center -rotate-45"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class=" w-12 h-12 rounded-full border flex justify-center items-center"><i class="fa-solid fa-bars"></i></div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 -ml-10 w-28 p-2 shadow"
+            >
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </header>
+  </body>
 </html>
+
+
